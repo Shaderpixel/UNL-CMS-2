@@ -6,6 +6,10 @@ dependencies:
     - field.field.node.page.body
     - field.field.node.page.field_bands
     - field.field.node.page.field_bands_additional
+    - field.field.node.page.field_images
+    - field.field.node.page.field_media
+    - field.field.node.page.field_tweets
+    - field.field.node.page.field_videos
     - node.type.page
   module:
     - text
@@ -23,6 +27,37 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+  field_images:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: only_media
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+  field_media:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_tweets:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: media_with_info
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+  field_videos:
+    weight: 4
+    label: hidden
+    settings:
+      view_mode: media_with_info
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
   links:
     weight: 1
     settings: {  }

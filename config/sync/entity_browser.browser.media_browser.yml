@@ -1,0 +1,28 @@
+uuid: 1e1ce56f-0b9a-4a40-a03c-d77568a6075c
+langcode: en
+status: true
+dependencies:
+  module:
+    - views
+name: media_browser
+label: 'Media browser'
+display: iframe
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: single
+widget_selector_configuration: {  }
+widgets:
+  4354206a-ce31-4683-ba7a-077ce4ee038e:
+    settings:
+      view: media_list
+      view_display: entity_browser_1
+      submit_text: 'Use Media'
+    uuid: 4354206a-ce31-4683-ba7a-077ce4ee038e
+    weight: 1
+    label: 'Media library'
+    id: view

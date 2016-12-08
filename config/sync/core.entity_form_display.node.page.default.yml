@@ -6,6 +6,10 @@ dependencies:
     - field.field.node.page.body
     - field.field.node.page.field_bands
     - field.field.node.page.field_bands_additional
+    - field.field.node.page.field_images
+    - field.field.node.page.field_media
+    - field.field.node.page.field_tweets
+    - field.field.node.page.field_videos
     - node.type.page
   module:
     - inline_entity_form
@@ -45,6 +49,56 @@ content:
     type: inline_entity_form_complex
   field_bands_additional:
     weight: 8
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+  field_images:
+    weight: 26
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+  field_media:
+    weight: 29
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: media_browser
+    type: inline_entity_form_complex
+  field_tweets:
+    weight: 27
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+  field_videos:
+    weight: 28
     settings:
       form_mode: default
       label_singular: ''

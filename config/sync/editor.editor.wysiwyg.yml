@@ -16,6 +16,7 @@ settings:
           name: Formatting
           items:
             - Bold
+            - '-'
             - Italic
         -
           name: Links
@@ -36,6 +37,12 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+        -
+          name: 'Entity Embed'
+          items:
+            - media_button
+            - '-'
+            - node
   plugins:
     language:
       language_list: un

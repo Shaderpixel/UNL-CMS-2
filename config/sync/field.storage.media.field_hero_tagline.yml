@@ -1,0 +1,21 @@
+uuid: c8902221-d05f-4d63-92d8-3615ae53bc6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.field_hero_tagline
+field_name: field_hero_tagline
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

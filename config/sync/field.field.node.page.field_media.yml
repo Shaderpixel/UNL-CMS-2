@@ -1,0 +1,32 @@
+uuid: 50c9b024-a39b-48cc-b568-d248b1272a4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media_entity.bundle.media_image
+    - media_entity.bundle.tweet
+    - media_entity.bundle.video
+    - node.type.page
+id: node.page.field_media
+field_name: field_media
+entity_type: node
+bundle: page
+label: Media
+description: 'Single media field that lets you add all 3 types of media'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      media_image: media_image
+      tweet: tweet
+      video: video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: media_image
+field_type: entity_reference

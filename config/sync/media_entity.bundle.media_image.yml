@@ -1,0 +1,19 @@
+uuid: 4ac0d325-202f-4244-b55d-70a25ceb4170
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity_image
+id: media_image
+label: 'Media Image'
+description: 'This is for adding new hero images'
+type: image
+queue_thumbnail_downloads: false
+new_revision: true
+type_configuration:
+  source_field: field_image
+  gather_exif: true
+field_map:
+  width: field_width
+  height: field_height
+  created: field_creation_date

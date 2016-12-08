@@ -1,0 +1,23 @@
+uuid: 8adf1e37-5a56-4fbb-8c4d-274ab92fcb81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.file_browser
+    - field.field.block_content.file_browser.field_file_browser_reference
+_core:
+  default_config_hash: k_XK3EUGUx6XUHSKYXl2mtPVqoT_Slx5UeR59eQVtic
+id: block_content.file_browser.default
+targetEntityType: block_content
+bundle: file_browser
+mode: default
+content:
+  field_file_browser_reference:
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+hidden: {  }

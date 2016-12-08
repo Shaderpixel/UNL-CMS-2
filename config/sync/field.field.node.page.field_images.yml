@@ -1,0 +1,28 @@
+uuid: 34e6735c-d3ba-40bd-96ca-5f33ab213e5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_images
+    - media_entity.bundle.media_image
+    - node.type.page
+id: node.page.field_images
+field_name: field_images
+entity_type: node
+bundle: page
+label: Images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      media_image: media_image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

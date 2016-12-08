@@ -1,0 +1,32 @@
+uuid: 9ed3e676-b2ed-4753-95d8-91f42882d4c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+_core:
+  default_config_hash: DhotUJgl8YPh3XqkvNHAakhlpkLDyMTw6n3q644QY10
+id: node.field_file_browser_image
+field_name: field_file_browser_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

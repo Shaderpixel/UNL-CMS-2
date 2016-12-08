@@ -1,0 +1,19 @@
+uuid: b2f75c22-75e6-43b6-b9d1-3d612b86127e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_url_or_embed_code
+    - media_entity.bundle.tweet
+id: media.tweet.field_url_or_embed_code
+field_name: field_url_or_embed_code
+entity_type: media
+bundle: tweet
+label: 'URL or Embed Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

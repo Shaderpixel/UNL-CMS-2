@@ -1,0 +1,14 @@
+uuid: 0540ac15-59fa-4ecd-9e22-1df69f95e44c
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_media
+id: video
+label: Video
+description: ''
+type: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

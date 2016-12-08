@@ -1,0 +1,27 @@
+uuid: 5e71071a-c320-4268-ac63-0e403b5ddfa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_files
+    - node.type.file_browser
+  module:
+    - file
+id: node.file_browser.field_upload_files
+field_name: field_upload_files
+entity_type: node
+bundle: file_browser
+label: 'Upload files'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf jpg'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

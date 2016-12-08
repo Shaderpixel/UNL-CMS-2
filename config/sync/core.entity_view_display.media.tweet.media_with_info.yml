@@ -1,0 +1,32 @@
+uuid: dc95ab4b-8c34-4717-a836-7a7b9b465612
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_with_info
+    - field.field.media.tweet.field_url_or_embed_code
+    - media_entity.bundle.tweet
+  module:
+    - media_entity_twitter
+id: media.tweet.media_with_info
+targetEntityType: media
+bundle: tweet
+mode: media_with_info
+content:
+  field_url_or_embed_code:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: twitter_embed
+  uid:
+    type: entity_reference_label
+    weight: 0
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  name: true
+  thumbnail: true

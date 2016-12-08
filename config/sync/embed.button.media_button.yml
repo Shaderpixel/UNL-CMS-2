@@ -1,0 +1,25 @@
+uuid: 4da36306-01af-49ae-9ffe-d0c00adf55d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.media_image
+    - media_entity.bundle.tweet
+    - media_entity.bundle.video
+  module:
+    - entity_embed
+    - media_entity
+label: 'Media Button'
+id: media_button
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - media_image
+    - tweet
+    - video
+  display_plugins: {  }
+  entity_browser: media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: null
