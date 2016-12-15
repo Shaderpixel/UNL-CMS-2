@@ -57,7 +57,7 @@ filters:
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
-    status: true
+    status: false
     weight: -43
     settings: {  }
   filter_url:
