@@ -26,7 +26,12 @@
         "drupal/easy_breadcrumb": "1.5",
         "drupal/devel": "1.0-alpha1",
         "drupal/imce": "1.4",
-        "drupal/admin_toolbar": "1.18"
+        "drupal/admin_toolbar": "1.18",
+        "drupal/entity": "1.0-alpha4",
+        "drupal/entity_browser": "1.0-beta2",
+        "drupal/media_entity": "1.6",
+        "drupal/inline_responsive_images": "2.0",
+        "drupal/file_browser": "1.0-alpha3"
     },
     "replace": {
         "drupal/core": "~8.2"
