@@ -1,4 +1,4 @@
-uuid: 04e6b3e3-9cbb-4ea7-8f06-e0e8e9899b27
+uuid: 07f6b248-e29c-493e-8f00-6a423a5fef3c
 langcode: und
 status: true
 dependencies:
@@ -18,7 +18,7 @@ display_configuration:
   height: '768'
   link_text: 'Select files'
   auto_open: true
-selection_display: no_display
+selection_display: multi_step_display
 selection_display_configuration:
   entity_type: file
   display: thumbnail
@@ -42,8 +42,8 @@ widgets:
     settings:
       upload_location: 'public://'
       dropzone_description: 'Click or drop files here to upload them'
-      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp docx'
-      max_filesize: 3M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      max_filesize: 2M
       submit_text: 'Select entities'
     uuid: 735d146c-a4b2-4327-a057-d109e0905e05
     weight: 0

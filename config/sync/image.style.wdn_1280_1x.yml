@@ -1,0 +1,15 @@
+uuid: 8b7d6302-d979-49cb-b0eb-12efe55b21f3
+langcode: en
+status: true
+dependencies: {  }
+name: wdn_1280_1x
+label: wdn-1280-1x
+effects:
+  b0db828f-f5a5-485d-b799-0d1de1674b9a:
+    uuid: b0db828f-f5a5-485d-b799-0d1de1674b9a
+    id: image_scale
+    weight: 1
+    data:
+      width: 1280
+      height: null
+      upscale: false

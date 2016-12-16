@@ -10,8 +10,9 @@ dependencies:
     - field.field.media.media_image.field_image
     - field.field.media.media_image.field_width
     - media_entity.bundle.media_image
+    - responsive_image.styles.wdn_breakpoint_image_styles
   module:
-    - image
+    - responsive_image
 id: media.media_image.media_with_info
 targetEntityType: media
 bundle: media_image
@@ -42,10 +43,10 @@ content:
     weight: 0
     label: above
     settings:
-      image_style: ''
+      responsive_image_style: wdn_breakpoint_image_styles
       image_link: ''
     third_party_settings: {  }
-    type: image
+    type: responsive_image
   field_width:
     type: string
     weight: 3

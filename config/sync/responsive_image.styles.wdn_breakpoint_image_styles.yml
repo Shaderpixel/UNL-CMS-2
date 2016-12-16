@@ -1,0 +1,87 @@
+uuid: 60483574-88e2-4304-a805-7366e1b96a60
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.wdn_1280_1x
+    - image.style.wdn_1280_2x
+    - image.style.wdn_1600_1x
+    - image.style.wdn_1600_2x
+    - image.style.wdn_480_1x
+    - image.style.wdn_640_1x
+    - image.style.wdn_768
+    - image.style.wdn_768_1x
+    - image.style.wdn_960_1x
+    - image.style.wdn_960_2x
+  theme:
+    - unl_fourone
+id: wdn_breakpoint_image_styles
+label: 'wdn breakpoint image styles'
+image_style_mappings:
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp1600
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_1600_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp1600
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_1600_2x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp1280
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_1280_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp1280
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_1280_2x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp960
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_960_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp960
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_960_2x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp768
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_768_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp768
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_768
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp640
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_640_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp640
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_1280_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp480
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_480_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.bp480
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: wdn_960_1x
+  -
+    breakpoint_id: unl_fourone.wdn_breakpoints.base
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: wdn_960_1x
+breakpoint_group: wdn_breakpoints
+fallback_image_style: wdn_960_1x

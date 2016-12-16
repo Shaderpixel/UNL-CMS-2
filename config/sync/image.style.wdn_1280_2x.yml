@@ -1,0 +1,15 @@
+uuid: 023106ef-46c7-444e-8678-629979d886ba
+langcode: en
+status: true
+dependencies: {  }
+name: wdn_1280_2x
+label: wdn-1280-2x
+effects:
+  2b2acd19-7fe1-4e75-85f1-625344a97390:
+    uuid: 2b2acd19-7fe1-4e75-85f1-625344a97390
+    id: image_scale
+    weight: 1
+    data:
+      width: 2560
+      height: null
+      upscale: false

@@ -20,6 +20,8 @@ settings:
             - Italic
             - Superscript
             - Subscript
+            - Format
+            - PasteFromWord
         -
           name: Links
           items:
@@ -37,16 +39,12 @@ settings:
             - Blockquote
             - DrupalImage
         -
-          name: Formatting
-          items:
-            - Format
-            - PasteFromWord
-        -
           name: 'Entity Embed'
           items:
             - media_button
             - '-'
             - node
+            - file_browser
         -
           name: Source
           items:

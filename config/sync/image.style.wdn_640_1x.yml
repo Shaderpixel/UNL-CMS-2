@@ -1,0 +1,15 @@
+uuid: d0078b44-cbbb-4c0b-b7bb-d31e28fdd2f2
+langcode: en
+status: true
+dependencies: {  }
+name: wdn_640_1x
+label: wdn-640-1x
+effects:
+  86f927bf-1a4c-465d-ac08-5c4d8325f9a7:
+    uuid: 86f927bf-1a4c-465d-ac08-5c4d8325f9a7
+    id: image_scale
+    weight: 1
+    data:
+      width: 640
+      height: null
+      upscale: false

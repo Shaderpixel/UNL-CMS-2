@@ -28,3 +28,8 @@ content:
 hidden:
   field_bands: true
   field_bands_additional: true
+  field_images: true
+  field_media: true
+  field_tweets: true
+  field_videos: true
+  og_audience: true

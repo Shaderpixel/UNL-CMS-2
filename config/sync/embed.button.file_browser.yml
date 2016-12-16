@@ -1,4 +1,4 @@
-uuid: 329c6e28-cbca-41f3-b979-dbb6500a12c8
+uuid: a0d3a145-996e-44c8-97b8-359c456cccf6
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,7 @@ dependencies:
     - entity_embed
     - file
     - image
+    - responsive_image
 _core:
   default_config_hash: D5QbkhbHfWlohKBxTofPCBUqp9vCE2dFnJii5JdWEk4
 label: 'File Browser'
@@ -18,7 +19,7 @@ type_settings:
   bundles: {  }
   display_plugins:
     - 'file:file_default'
-    - 'image:image'
+    - 'image:responsive_image'
   entity_browser: browse_files
   entity_browser_settings:
     display_review: true

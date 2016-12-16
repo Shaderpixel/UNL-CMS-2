@@ -1,0 +1,15 @@
+uuid: 4cf796a1-65ab-4254-9d9a-e242ea4dd932
+langcode: en
+status: true
+dependencies: {  }
+name: wdn_960_2x
+label: wdn-960-2x
+effects:
+  9f33a41b-1ab5-4117-af6e-a3ef365a682e:
+    uuid: 9f33a41b-1ab5-4117-af6e-a3ef365a682e
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false

@@ -1,0 +1,15 @@
+uuid: 5bc63b78-add4-4abe-b6d2-b60f8b237980
+langcode: en
+status: true
+dependencies: {  }
+name: wdn_768
+label: wdn-768-2x
+effects:
+  2ff94e68-6947-4ecf-b239-f154b6a8a02d:
+    uuid: 2ff94e68-6947-4ecf-b239-f154b6a8a02d
+    id: image_scale
+    weight: 1
+    data:
+      width: 1536
+      height: null
+      upscale: false
